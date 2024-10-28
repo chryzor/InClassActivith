@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InClassActivith</string>
+    <string-array name="food_options">
+
+
+
+        <item>Chicken</item>
+        <item>Barbecue Sauce</item>
+        <item>Marinara Sauce</item>
+        <item>Basil Sauce</item>
+        <item>Onions</item>
+        <item>Olives</item>
+        <item>Pepperoni</item>
+        <item>Cheese</item>
+
+
+    </string-array>
+
+</resources>
