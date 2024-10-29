@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
-                // This is for when nothing is clicked the android studio gave this
+                // This is for when nothing is clicked this what  android studio gave me to help fix the code
             }
         }
 
