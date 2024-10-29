@@ -1,4 +1,4 @@
-Contributions
+Contributions:
 Chryzor: Added the functionality and designed the general layout of the app.
 Colin: Added the landscape layout and other style changes.
 Below is a screenshot of our app:
