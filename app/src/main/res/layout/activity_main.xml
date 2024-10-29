@@ -22,12 +22,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="342dp"
-        android:layout_height="55dp"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
         android:text="Build Your Own Pizza "
-        android:textColor="@color/colorAccent"
-        android:textSize="25sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +60,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" $1 Cheese"
-            android:layout_gravity="start"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.485"
@@ -77,6 +73,14 @@
             android:layout_height="wrap_content"
             android:text="$1 Olives"
             app:layout_constraintVertical_bias="0.635" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Chicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="152dp"
+            android:gravity="start"
+            android:text="$1 Chicken" />
 
         <CheckBox
             android:id="@+id/Pepperoni"
@@ -96,13 +100,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" $1 Onions" />
-
-        <CheckBox
-            android:height="48dp"
-            android:id="@+id/checkbox_Chicken"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="$1 Chicken" />
 
     </LinearLayout>
 
@@ -124,9 +121,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:textColor="@color/black"
-        android:background="@color/white"
-        android:text="Button"
+        android:text="Confirmed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

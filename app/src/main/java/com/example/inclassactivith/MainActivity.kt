@@ -44,8 +44,13 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
-                // This is for when nothing is clicked this what  android studio gave me to help fix the code
+                // This is for when nothing is clicked the android studio gave this
             }
+        }
+
+        val confirmedButton: Button = findViewById(R.id.button45)
+        confirmedButton.setOnClickListener {
+            finish()
         }
 
 
