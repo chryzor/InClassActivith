@@ -7,18 +7,20 @@
     android:layout_height="match_parent"
     android:background="@drawable/pizza_background3"
     tools:context=".MainActivity">
+
+
     <Spinner
         android:id="@+id/Spinner"
-        android:layout_width="332dp"
-        android:layout_height="131dp"
+        android:layout_width="256dp"
+        android:layout_height="104dp"
         android:entries="@array/food_options"
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toTopOf="@+id/LinerLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -46,14 +48,14 @@
         android:id="@+id/LinerLayout"
         android:layout_width="414dp"
         android:layout_height="238dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="1dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.014">
+        app:layout_constraintVertical_bias="0.0">
 
         <CheckBox
             android:id="@+id/checkbox_cheddear"
@@ -73,7 +75,6 @@
             android:layout_height="wrap_content"
             android:text="$1 Olives"
             app:layout_constraintVertical_bias="0.635" />
-
 
 
         <CheckBox
@@ -100,10 +101,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" $1 Chicken"
-            app:layout_constraintTop_toBottomOf="@id/Olives"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.3"
-        />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Olives" />
 
     </LinearLayout>
 
@@ -111,26 +111,25 @@
         android:id="@+id/total_cost_textview"
         android:layout_width="132dp"
         android:layout_height="77dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="12dp"
         android:text="Total Cost"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button45"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LinerLayout"
-        app:layout_constraintVertical_bias="0.771" />
+        app:layout_constraintTop_toBottomOf="@+id/Spinner" />
 
     <Button
         android:id="@+id/button45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="60dp"
         android:text="Confirmed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
 
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
