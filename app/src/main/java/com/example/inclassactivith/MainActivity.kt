@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         // Toppings CheckBoxes
         val toppings = listOf(
-            findViewById<CheckBox>(R.id.checkbox_Chicken),
+            findViewById<CheckBox>(R.id.check_Chicken),
             findViewById<CheckBox>(R.id.Pepperoni),
             findViewById<CheckBox>(R.id.Olives),
             findViewById<CheckBox>(R.id.Onions),
