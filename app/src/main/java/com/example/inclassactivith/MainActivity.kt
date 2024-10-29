@@ -48,6 +48,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        val confirmedButton: Button = findViewById(R.id.button45)
+        confirmedButton.setOnClickListener {
+            finish()
+        }
+
 
 
         // Toppings CheckBoxes
